@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  font-size: 18px;
+  line-height: 20px;
+  color: #8492a6;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  border-bottom: 1px solid gray;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; */
+}
+
+.tab-menu-item {
+  margin-right: 16px;
+}
+.tab-menu-item.selected {
+  border-bottom: 2px solid blue;
+}
+
+.tab-menu-item.selected a {
+  color: blue;
+  font-weight: 500;
+}
